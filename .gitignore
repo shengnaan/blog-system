@@ -1,0 +1,12 @@
+**/env/
+**/venv/
+**/ENV/
+**/env.bak/
+
+
+**/.env
+**/.env.dev
+**/.env.prod
+**/.env.test
+
+**/.idea/
