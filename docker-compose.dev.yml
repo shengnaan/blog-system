@@ -1,0 +1,9 @@
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: blog-app:dev
+    ports:
+      - "8080:8080"
+    restart: unless-stopped
